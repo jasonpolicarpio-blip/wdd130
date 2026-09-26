@@ -205,6 +205,9 @@ section p {
     height: 120px;
 }
 
+.adventure-gallery figcaption {
+    color: black;
+}
 
 .history {
     margin: 20px 0;
