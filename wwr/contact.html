@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Whitewater Rafting Company Page</title>
+    <meta name="description"
+        content="Provide contact information for the Whitewater Rafting company including phone number, address, and email.  Also provide employee profiles.">
+    <meta name="author" content="Jason Policarpio">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/whitewater-rafting-logo.jpg" alt="Whitewater Rafting logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>White Water Rafting Company</h2>
+            <address>
+                <p>123 Rafting Lane</p>
+                <p>Adventure, CA 98765</p>
+                <p>Phone: (555) 123-4567</p>
+                <p>Email: info@whitewater rafting.com</p>
+            </address>
+        </section>
+        <section class="contact-content">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d105845.66511838176!2d-109.50139953984993!3d40.8869676776243!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1791042438295!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <fieldset>
+                        <legend>Message Purpose</legend>
+
+                        <div class="radio-group">
+                            <input type="radio" id="general-inquiry" name="message-purpose" value="general-inquiry"
+                                required>
+                            <label for="general-inquiry">General Inquiry</label>
+                        </div>
+
+                        <div class="radio-group">
+                            <input type="radio" id="question" name="message-purpose" value="question" required>
+                            <label for="question">Reservation Question</label>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" id="suggestion" name="message-purpose" value="suggestion" required>
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Type here"></textarea>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+                    </div>
+
+                    <button type="submit">Get in Touch!</button>
+
+
+
+                    </select>
+                </form>
+            </div>
+        </section>
+        <section class="employee-profiles">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/employee_pic (1).jpg" alt="Employee 1">
+                    <figcaption>John Doe - CEO</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee_pic (1).jpg" alt="Employee 2">
+                    <figcaption>Jane Smith - Operations Manager</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/employee_pic (1).jpg" alt="Employee 3">
+                    <figcaption>Mike Johnson - Lead Guide</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©️ 2026 🚣 Whitewater Rafting 🚣 Jason Policarpio</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-square-larger.jpg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-square.jpg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-square-smaller.jpg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

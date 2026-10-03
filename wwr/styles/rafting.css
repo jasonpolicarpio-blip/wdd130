@@ -149,9 +149,9 @@ article img {
 footer {
     width: 840px;
     margin: 20px auto 0;
-    border-top: 1px solid #000;
+    border: 1px solid #000;
     text-align: left;
-
+    background-color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -160,7 +160,7 @@ footer {
 footer p {
     margin: 0;
     padding: 0;
-    color: #333;
+    color: black;
 }
 
 
@@ -234,4 +234,111 @@ section p {
 .history-content img {
     width: 200px;
     height: 150px;
+}
+
+.contact-info {
+    margin: 20px 0;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-info h2 {
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+}
+
+.contact-info p {
+    padding: 5px;
+    font-size: .9rem;
+}
+
+.employee-profiles {
+    border: #000 2px solid;
+    background-color: var(--accent2-color);
+    padding: 10px;
+    width: 840px;
+    margin: 20px auto 0;
+}
+
+.employee-profiles h2 {
+    text-align: center;
+    color: black;
+    font-family: var(--heading-font);
+    padding: 20px;
+    background-color: var(--accent2-color);
+    font-size: 2rem;
+}
+
+.employee-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.employee-gallery img {
+    height: 150px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 450px;
+}
+
+.contact-content {
+    display: flex;
+    align-items: stretch;
+}
+
+.map {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.form {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.contact-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content fieldset {
+    margin: 10px 0 20px;
+}
+
+.form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-group input {
+    width: auto;
+    margin-right: 5px;
+}
+
+.radio-group label {
+    display: inline;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-group input {
+    width: auto;
+    margin-right: 5px;
 }
