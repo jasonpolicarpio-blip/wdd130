@@ -459,11 +459,11 @@ section p {
 }
 
 .home .newsletter p {
-    color: #333;
+    color: black;
     margin: 0 0 20px;
 }
 
-.home .newsletter form {
+.newsletter form {
     display: grid;
     grid-template-columns: repeat(2, (2, 1fr));
     max-width: 750px;
