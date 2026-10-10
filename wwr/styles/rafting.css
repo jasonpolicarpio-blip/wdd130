@@ -465,7 +465,7 @@ section p {
 
 .home .newsletter form {
     display: grid;
-    grid-template-columns: repeat(2, minmax(2, 1fr));
+    grid-template-columns: repeat(2, (2, 1fr));
     max-width: 750px;
     margin: 0 auto;
     text-align: center;
@@ -485,7 +485,8 @@ section p {
     grid-column: 1/ -1;
     justify-self: center;
     padding: 12px 25px;
-    background-color: var(--secondary-color) color: white;
+    background-color: var(--secondary-color);
+    color: white;
 }
 
 .trips-page main {
