@@ -465,7 +465,6 @@ section p {
 
 .newsletter form {
     display: grid;
-    grid-template-columns: repeat(2, (2, 1fr));
     max-width: 750px;
     margin: 0 auto;
     text-align: center;
